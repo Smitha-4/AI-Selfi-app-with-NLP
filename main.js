@@ -30,7 +30,7 @@ function say(){
 
 function speak() {
     var synth = window.speechSynthesis;
-    speak_data = "Taking your ";
+    speak_data = "Taking your picture in 5 seconds. Get ready!";
     alert(speak_data);
 
     var utterThis = new SpeechSynthesisUtterance(speak_data);
